@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TLACOTEPEC</title>
+    <link rel="stylesheet" href="style.css">
+
+    
+    <script>
+        function mostrarTema(idTema) {
+            
+            document.querySelectorAll('.tema').forEach(tema => {
+                tema.style.display = 'none';
+            });
+            
+            document.getElementById(idTema).style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>UN MARAVILLOSO LUGAR TLACOTEPEC DE BENITO JUÁREZ PUEBLA</h1>
+        <p class="subtitulo">Proyecto elaborado por: Jessica Rojas Vazquez - GRUPO: 2°D</p>
+    </header>
+
+    <main>
+        <section class="tarjeta">
+
+        
+            <div style="margin-bottom: 25px; padding: 12px; background-color: #f0f8ff; border-radius: 10px;">
+                <button onclick="mostrarTema('historia')"> HISTORIA</button>
+                <button onclick="mostrarTema('calvario')">EL CERRO DEL CALVARIO</button>
+                <button onclick="mostrarTema('parroquia')"> PARROQUIA DE LA SANTA CRUZ</button>
+                <button onclick="mostrarTema('parque')">PARQUE PRINCIPAL</button>
+                <button onclick="mostrarTema('cecyte')">CECyTE TLACOTEPEC</button>
+            </div>
+
+
+            <div id="historia" class="tema" style="display: block;">
+                <h2>HISTORIA</h2>
+                <p>
+                    El municipio de Tlacotepec de Benito Juárez, ubicado en el sureste de Puebla, posee una rica historia que data desde el año 1300 a.C.<br><br>
+                    Su nombre proviene del náhuatl y significa "en la mitad del cerro", y desde el siglo XV fue un importante punto comercial tributario de Tenochtitlán.<br><br>
+                    <b>Un Viaje a través del Tiempo</b><br>
+                    <b>Época Prehispánica:</b> La región estuvo habitada por antiguas poblaciones que florecieron antes de la llegada de los españoles. En el siglo XV, mantenía una fuerte red comercial y cultural con el imperio mexica.<br><br>
+                    <b>La Colonia:</b> El clero secular se estableció oficialmente en Santa Cruz Tlacotepec en el año 1567. Fue entonces cuando nació la tradición del "Señor del Calvario", un crucifijo muy venerado cuya leyenda cuenta que apareció milagrosamente en un cerro cercano.<br><br>
+                    <b>La Época Moderna:</b> Se erigió como villa en 1895. Ya para 1921 obtuvo el título de municipio libre, y en 1960 se le añadió "de Benito Juárez" en honor al benemérito de las Américas.<br><br>
+                    Hoy en día, el municipio es un rincón con profundas tradiciones y vestigios arquitectónicos. La región es famosa por sus festividades, destacando la Fiesta de la Virgen de la Candelaria, y por albergar sitios de gran belleza tradicional como la Ex Hacienda San Lucas Palmillas.
+                </p>
+                <img src="WhatsApp Image 2026-06-15 at 5.19.45 PM (1).jpeg  " alt="Imagen general de Tlacotepec de Benito Juárez">
+            </div>
+
+
+            <div id="calvario" class="tema" style="display: none;">
+                <h2>EL CERRO DEL CALVARIO</h2>
+                <img src="WhatsApp Image 2026-06-15 at 5.19.45 PM (1).jpeg" alt="Imagen del Cerro del Calvario">
+                <p>
+                    El Calvario es un importante centro religioso y turístico ubicado en Tlacotepec de Benito Juárez, en el sureste del estado de Puebla.<br><br>
+                    Su santuario destaca tanto por su profundo arraigo devocional como por su riqueza arqueológica y natural.<br><br>
+                    <b>Aspectos más destacados:</b><br>
+                    <b>Origen Prehispánico:</b> La iglesia del Señor del Calvario fue edificada sobre la base de una pirámide popoloca con más de 2,000 años de antigüedad.<br><br>
+                    Si quieres conocer más de este lugar haz clic en el siguiente enlace:
+                </p>
+                <br>
+                <a href="calvario.html" target="_blank">🔍 Conocer más detalles</a><br><br>
+                <a href="https://maps.app.goo.gl/Dzs7PecTKu1VTxaJA?g_st=aw">
+                    <button>Ir al mapa</button>
+                </a>
+            </div>
+
+
+            TEMA 3
+            <div id="parroquia" class="tema" style="display: none;">
+                <h2>PARROQUIA DE LA SANTA CRUZ</h2>
+                <img src="WhatsApp Image 2026-06-15 at 6.01.06 PM.jpeg" alt="Imagen de la Parroquia de la Santa Cruz">
+                <p>
+                    En el municipio de Tlacotepec de Benito Juárez, Puebla, se erige un templo que funciona como epicentro de la fe y la tradición local, conocido formalmente como la Parroquia de la Santa Cruz.<br><br>
+                    Sin embargo, es más célebre por albergar la venerada imagen del Señor del Calvario, un Cristo negro cuya historia y milagros atribuidos lo han convertido en un importante punto de peregrinación.<br><br>
+                    Este recinto no es solo una edificación religiosa, sino un complejo espiritual que fusiona historia, devoción y una activa vida comunitaria.
+                </p>
+            </div>
+
+
+            TEMA 4
+            <div id="parque" class="tema" style="display: none;">
+                <h2>PARQUE PRINCIPAL</h2>
+                <img src="WhatsApp Image 2026-06-15 at 6.11.10 PM.jpeg" alt="Imagen del Parque Principal">
+                <p>
+                    ♦️ El parque principal de Tlacotepec de Benito Juárez, Puebla, es el corazón social del municipio, caracterizado por su ambiente familiar, áreas verdes y cercanía con el palacio municipal.<br><br>
+                    Funciona como punto de reunión céntrico, tradicionalmente adornado por el quiosco local y cercano a la iglesia, siendo un lugar clave para las actividades sociales y ferias locales.
+                </p>
+            </div>
+
+
+            TEMA 5
+            <div id="cecyte" class="tema" style="display: none;">
+                <h2>CECyTE TLACOTEPEC</h2>
+                <img src="WhatsApp Image 2026-06-15 at 7.08.38 PM.jpeg" alt="Imagen del CECyTE Tlacotepec">
+                <p>
+                    <b>¿Cómo llegar al CECyTE Tlacotepec?</b><br><br>
+                     <b>En español:</b><br>
+                    Desde el parque gire a la derecha y siga por la carretera hasta llegar a la empresa Pabsa en la esquina superior. Suba y continúe hasta la siguiente esquina y luego gire a la izquierda hasta llegar.<br><br>
+                     <b>In English:</b><br>
+                    How can I get to CECyTE Tlacotepec?<br>
+                    From the park turn right and go all the way down the road until you reach the company at the top corner. Go up and continue until the next corner and then turn left until you arrive.
+                </p>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Práctica de HTML Y CSS - CULTURA DIGITAL E INGLÉS</p>
+    </footer>
+</body>
+</html>
